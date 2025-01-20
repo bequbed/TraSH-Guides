@@ -1,0 +1,20 @@
+{
+  "trash_id": "2a6039655313bf5dab1e43523b62c374",
+  "trash_scores": {
+    "default": 20
+  },
+  "trash_regex": "https://regex101.com/r/B0AMvg/latest",
+  "name": "MA",
+  "includeCustomFormatWhenRenaming": true,
+  "specifications": [
+    {
+      "name": "Movies Anywhere",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": true,
+      "fields": {
+        "value": "(?<!dts[ .-]?hd[ .-]?)\\bma\\b(?=.*\\bweb[ ._-]?(dl|rip)\\b)"
+      }
+    }
+  ]
+}
